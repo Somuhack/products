@@ -23,7 +23,8 @@ const userSheama = new mongoose.Schema({
     },
     userRole:{
         type:String,
-        required:true
+        required:true,
+        default:"user"
     },
 
 },
